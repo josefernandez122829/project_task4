@@ -5,9 +5,9 @@ $(function(){
         let lname = $("#lname").val();
         let email = $("#email").val();
         let password = $("#password").val();
-        let cpassword = $("#cpassowrd").val();
+        let cpassword = $("#cpassword").val();
 
-        if(password == cpassword) {
+        if(password === cpassword) {
             alert('true');
         }else {
             alert('false');
